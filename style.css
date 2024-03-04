@@ -1,0 +1,57 @@
+body {
+    background-color:darkslategray;
+    margin: 0;
+}
+
+.main{
+    
+    height: auto;
+    text-align: center;
+}
+
+.picter img{
+    margin-top: 20px;
+    width: 160px;
+    height: 160px;
+    border: 3px solid white;
+    border-radius: 50%;
+
+
+}
+
+h2{
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    
+}
+b{
+    color: white;
+}
+.links{
+    display: block;
+    border: 3px solid papayawhip;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+    transition: 1.5s;
+}
+
+.links:hover{
+    border-radius: 20px 20px 20px 20px;
+    background-color: khaki;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.copy{
+    padding: 20px;
+}
